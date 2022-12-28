@@ -1,2 +1,14 @@
 
+:root{
+--main-text-color: #2E2F42;
+--sec-text-color:#4D5AE5;
+--text-text-color:#434455;
+}
 
+.studio.web {
+    color: var (--sec-text-color);
+}
+
+.studio {
+    color: var (--main-text-color)
+}
