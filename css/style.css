@@ -111,6 +111,10 @@ background-color: #2E2F42;
     color: var(--text-text-color);
     background-color: #fff;
 }
+.images.text {
+    color: var(--cloud-text-color);
+    background-color: var(--sec-text-color);
+}
 
 .footp {
     background-color: var(--main-text-color);
