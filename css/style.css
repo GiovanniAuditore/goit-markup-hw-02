@@ -1,14 +1,128 @@
-
+/* Main page*/
 :root{
 --main-text-color: #2E2F42;
 --sec-text-color:#4D5AE5;
 --text-text-color:#434455;
+--cloud-text-color:#F4F4FD;
+--port-button-bg:#E7E9FC;
 }
 
 .studio.web {
-    color: var (--sec-text-color);
+    background-color: #fff;
+    color: var(--sec-text-color);
 }
 
 .studio {
-    color: var (--main-text-color)
+    background-color: #fff;
+    color: var(--main-text-color);
+}
+
+.buttons {
+    background-color: #fff;
+    color: var(--main-text-color);
+}
+.address {
+    background-color: #fff;
+    color: var(--text-text-color);
+}
+.bigtext{
+    color: #fff;
+    background-color: var(--sec-text-color);
+}
+.orderbtn {
+    color: #fff;
+    background-color: var(--sec-text-color);
+}
+.maintext{
+    background-color: #fff;
+    color:var(--main-text-color) ;
+}
+.minortext{
+    background-color: #fff;
+    color: var(--text-text-color);
+}
+.question{
+    background-color: #fff;
+    color: var(--main-text-color);
+}
+.cloud {
+    background-color: var(--cloud-text-color);
+}
+.cloud.text{
+    color: var(--main-text-color);
+    background-color: var(--cloud-text-color);
+}
+
+.cloud.name {
+    color: var(--main-text-color);
+    background-color: #fff;
+}
+.cloud.job {
+    color: var(--text-text-color);
+    background-color: #fff;
+}
+.foot {
+    background-color: var(--main-text-color);
+}
+
+.foot.studio {
+color: var(--cloud-text-color);
+background-color: #2E2F42;
+}
+
+.foot.studio.web {
+color: var(--sec-text-color);
+background-color: #2E2F42;
+}
+
+/* Portfolio*/
+
+.studiop{
+    background-color: #fff;
+    color: var(--main-text-color);
+}
+.studiop.webp{
+    background-color: #fff;
+    color: var(--sec-text-color);
+}
+
+.buttonsp {
+    background-color: #fff;
+    color: var(--main-text-color);
+}
+.addressp {
+    background-color: #fff;
+    color: var(--text-text-color);
+}
+
+.buttonstack {
+    color: var(--sec-text-color);
+    background-color: var(--port-button-bg);
+}
+.buttonstack.exp {
+    color: #fff;
+    background-color: var(--sec-text-color);
+}
+
+.images.name {
+    color: var(--main-text-color);
+    background-color: #fff;
+}
+.images.description {
+    color: var(--text-text-color);
+    background-color: #fff;
+}
+
+.footp {
+    background-color: var(--main-text-color);
+}
+
+.footp.studiop {
+color: var(--cloud-text-color);
+background-color: #2E2F42;
+}
+
+.footp.studiop.webp {
+color: var(--sec-text-color);
+background-color: #2E2F42;
 }
