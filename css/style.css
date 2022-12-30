@@ -172,10 +172,7 @@ background-color: #2E2F42;
     text-transform: uppercase;
 }
 
-bodyp {
-    font-family: "Roboto";
-    letter-spacing: 0.02em;
-}
+
 .studiop{
     background-color: #fff;
     color: var(--main-text-color);
