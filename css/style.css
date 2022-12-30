@@ -7,12 +7,25 @@
 --port-button-bg:#E7E9FC;
 }
 
-.studio.web {
+.body{
+    font-family: "Roboto";
+    letter-spacing: 0.02em;
+}
+.logo{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.30;
+    /* identical to box height, or 133% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo.studio.web {
     background-color: #fff;
     color: var(--sec-text-color);
 }
 
-.studio {
+.logo.studio {
     background-color: #fff;
     color: var(--main-text-color);
 }
@@ -20,30 +33,72 @@
 .buttons {
     background-color: #fff;
     color: var(--main-text-color);
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
 }
 .address {
     background-color: #fff;
     color: var(--text-text-color);
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
 }
 .bigtext{
     color: #fff;
     background-color: var(--sec-text-color);
+    font-weight: 600;
+font-size: 56px;
+line-height: 1.1;
+/* or 107% */
+text-align: center;
+letter-spacing: 0.02em;
 }
 .orderbtn {
     color: #fff;
     background-color: var(--sec-text-color);
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.2;
+/* identical to box height */
+align-items: center;
+letter-spacing: 0.04em;
 }
 .maintext{
     background-color: #fff;
     color:var(--main-text-color) ;
+    font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+/* identical to box height, or 120% */
+letter-spacing: 0.02em;
+
 }
 .minortext{
     background-color: #fff;
     color: var(--text-text-color);
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* or 150% */
+letter-spacing: 0.02em;
+
 }
 .question{
     background-color: #fff;
     color: var(--main-text-color);
+    font-weight: 600;
+font-size: 36px;
+line-height: 1.1;
+/* identical to box height, or 111% */
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 }
 .cloud {
     background-color: var(--cloud-text-color);
@@ -51,32 +106,69 @@
 .cloud.text{
     color: var(--main-text-color);
     background-color: var(--cloud-text-color);
+    font-weight: 600;
+font-size: 36px;
+line-height: 1.1;
+/* identical to box height, or 111% */
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 }
 
 .cloud.name {
     color: var(--main-text-color);
     background-color: #fff;
+    font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+/* identical to box height, or 120% */
+text-align: center;
+letter-spacing: 0.02em;
 }
 .cloud.job {
     color: var(--text-text-color);
     background-color: #fff;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+text-align: center;
+letter-spacing: 0.02em;
 }
 .foot {
     background-color: var(--main-text-color);
 }
 
-.foot.studio {
+.footlogo{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.30;
+    /* identical to box height, or 133% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footlogo.studio {
 color: var(--cloud-text-color);
 background-color: #2E2F42;
 }
 
-.foot.studio.web {
+.footlogo.studio.web {
 color: var(--sec-text-color);
 background-color: #2E2F42;
 }
 
 /* Portfolio*/
 
+.logop{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.30;
+    /* identical to box height, or 133% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 .studiop{
     background-color: #fff;
     color: var(--main-text-color);
@@ -89,15 +181,37 @@ background-color: #2E2F42;
 .buttonsp {
     background-color: #fff;
     color: var(--main-text-color);
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
 }
 .addressp {
     background-color: #fff;
     color: var(--text-text-color);
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+}
+
+.logop{
+    font-family: "Roboto";
+    letter-spacing: 0.02em;
 }
 
 .buttonstack {
     color: var(--sec-text-color);
     background-color: var(--port-button-bg);
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
 }
 
 .buttonstack:hover {
@@ -106,20 +220,44 @@ background-color: #2E2F42;
 .images.name {
     color: var(--main-text-color);
     background-color: #fff;
+    font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+/* identical to box height, or 120% */
+letter-spacing: 0.02em;
 }
 .images.description {
     color: var(--text-text-color);
     background-color: #fff;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
 }
 .images.text {
     color: var(--cloud-text-color);
     background-color: var(--sec-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
 }
 
 .footp {
     background-color: var(--main-text-color);
 }
 
+.footlogop{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.30;
+    /* identical to box height, or 133% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 .footp.studiop {
 color: var(--cloud-text-color);
 background-color: #2E2F42;
