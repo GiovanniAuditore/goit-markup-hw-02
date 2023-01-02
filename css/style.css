@@ -7,7 +7,7 @@
 --port-button-bg:#E7E9FC;
 }
 
-.body{
+body{
     font-family: "Roboto";
     letter-spacing: 0.02em;
 }
@@ -40,6 +40,7 @@ a:link { text-decoration: none;
 .buttons {
     background-color: #fff;
     color: var(--main-text-color);
+    font-family: inherit;
 font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
@@ -70,6 +71,7 @@ letter-spacing: 0.02em;
     color: #fff;
     background-color: var(--sec-text-color);
     font-weight: 600;
+    font-family: inherit;
 font-size: 16px;
 line-height: 1.2;
 /* identical to box height */
@@ -177,10 +179,7 @@ background-color: #2E2F42;
     text-transform: uppercase;
 }
 
-.bodyp {
-    font-family: "Roboto";
-    letter-spacing: 0.02em;
-}
+
 .studiop{
     background-color: #fff;
     color: var(--main-text-color);
@@ -194,6 +193,7 @@ background-color: #2E2F42;
     background-color: #fff;
     color: var(--main-text-color);
     font-weight: 600;
+    font-family: inherit;
 font-size: 16px;
 line-height: 1.5;
 /* identical to box height, or 150% */
@@ -218,6 +218,7 @@ letter-spacing: 0.02em;
     color: var(--sec-text-color);
     background-color: var(--port-button-bg);
     font-weight: 600;
+    font-family: inherit;
 font-size: 16px;
 line-height: 1.5;
 /* identical to box height, or 150% */
