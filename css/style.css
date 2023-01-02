@@ -11,6 +11,13 @@
     font-family: "Roboto";
     letter-spacing: 0.02em;
 }
+ul {
+    list-style: none;
+}
+
+a:link { text-decoration: none; 
+}
+
 .logo{
     font-family: 'Raleway';
     font-weight: 800;
@@ -19,14 +26,14 @@
     /* identical to box height, or 133% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    background-color: #fff;
 }
 .logo.studio.web {
-    background-color: #fff;
     color: var(--sec-text-color);
+    color: #4D5AE5;
 }
 
 .logo.studio {
-    background-color: #fff;
     color: var(--main-text-color);
 }
 
@@ -178,9 +185,9 @@ background-color: #2E2F42;
     background-color: #fff;
     color: var(--main-text-color);
 }
-.studiop.webp{
+.footlogop.studiop.webp{
     background-color: #fff;
-    color: var(--sec-text-color);
+    color: #4D5AE5;
 }
 
 .buttonsp {
@@ -203,7 +210,7 @@ letter-spacing: 0.02em;
 }
 
 .logop{
-    font-family: "Roboto";
+    font-family: "Raleway";
     letter-spacing: 0.02em;
 }
 
