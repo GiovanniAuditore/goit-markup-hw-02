@@ -143,10 +143,6 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 }
-.foot {
-    background-color: var(--main-text-color);
-}
-
 .footlogo{
     font-family: 'Raleway';
     font-weight: 800;
@@ -279,9 +275,6 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
 }
 
-.footp {
-    background-color: var(--main-text-color);
-}
 
 .footlogop{
     font-family: 'Raleway';
@@ -291,13 +284,29 @@ letter-spacing: 0.02em;
     /* identical to box height, or 133% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-.footp.studiop {
-color: var(--cloud-text-color);
+    color: var(--cloud-text-color);
 background-color: #2E2F42;
 }
 
-.footp.studiop.webp {
+.footp{
+    background-color: var(--main-text-color);
+}
+
+
+.footlogo.webp {
 color: var(--sec-text-color);
 background-color: #2E2F42;
 }
+
+.foottextp {
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* or 150% */
+letter-spacing: 0.02em;
+
+/* CORNFLOWER */
+color: #E7E9FC;
+}
+
