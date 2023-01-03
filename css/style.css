@@ -27,10 +27,10 @@ a:link { text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     background-color: #fff;
+    color: var(--main-text-color);
 }
-.logo.studio.web {
+.web {
     color: var(--sec-text-color);
-    color: #4D5AE5;
 }
 
 .logo.studio {
@@ -39,7 +39,7 @@ a:link { text-decoration: none;
 
 .buttons {
     background-color: #fff;
-    color: var(--main-text-color);
+    color:var(--main-text-color);
     font-family: inherit;
 font-weight: 600;
 font-size: 16px;
@@ -50,7 +50,6 @@ letter-spacing: 0.02em;
 .address {
     background-color: #fff;
     color: var(--text-text-color);
-
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -157,15 +156,32 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.footlogo.studio {
+
+.foot{
+    background-color: var(--main-text-color);
+}
+.footlogo {
 color: var(--cloud-text-color);
 background-color: #2E2F42;
 }
 
-.footlogo.studio.web {
+.footlogo.web {
 color: var(--sec-text-color);
 background-color: #2E2F42;
 }
+
+.foottext {
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* or 150% */
+letter-spacing: 0.02em;
+
+/* CORNFLOWER */
+color: #E7E9FC;
+}
+
 
 /* Portfolio*/
 
@@ -177,8 +193,12 @@ background-color: #2E2F42;
     /* identical to box height, or 133% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--main-text-color);
 }
 
+.webp {
+color: var(--sec-text-color);
+}
 
 .studiop{
     background-color: #fff;
@@ -209,10 +229,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.logop{
-    font-family: "Raleway";
-    letter-spacing: 0.02em;
-}
+
 
 .buttonstack {
     color: var(--sec-text-color);
@@ -225,6 +242,10 @@ line-height: 1.5;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
+box-sizing: border-box;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+
 }
 
 .buttonstack:hover {
