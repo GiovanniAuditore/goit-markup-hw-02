@@ -266,6 +266,15 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     /* identical to box height, or 150% */
     letter-spacing: 0.02em;
+    position: absolute;
+width: 360px;
+height: 300px;
+left: 0px;
+top: 0px;
+
+background: #4D5AE5;
+background-blend-mode: soft-light;
+mix-blend-mode: normal;
 }
 
 
