@@ -9,7 +9,6 @@
 
 body{
     font-family: "Roboto";
-    letter-spacing: 0.02em;
 }
 ul {
     list-style: none;
@@ -50,7 +49,6 @@ letter-spacing: 0.02em;
 .address {
     background-color: #fff;
     color: var(--text-text-color);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 /* identical to box height, or 150% */
@@ -90,7 +88,6 @@ letter-spacing: 0.02em;
 .minortext{
     background-color: #fff;
     color: var(--text-text-color);
-    font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 /* or 150% */
@@ -136,7 +133,6 @@ letter-spacing: 0.02em;
 .cloud.job {
     color: var(--text-text-color);
     background-color: #fff;
-    font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 /* identical to box height, or 150% */
@@ -168,7 +164,6 @@ background-color: #2E2F42;
 
 .foottext {
     font-family: 'Roboto';
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 /* or 150% */
@@ -218,7 +213,6 @@ letter-spacing: 0.02em;
 .addressp {
     background-color: #fff;
     color: var(--text-text-color);
-    font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 /* identical to box height, or 150% */
@@ -259,7 +253,6 @@ letter-spacing: 0.02em;
 .images.description {
     color: var(--text-text-color);
     background-color: #fff;
-    font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 /* identical to box height, or 150% */
@@ -300,7 +293,6 @@ background-color: #2E2F42;
 
 .foottextp {
     font-family: 'Roboto';
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 /* or 150% */
